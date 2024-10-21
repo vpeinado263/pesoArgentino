@@ -1,46 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cripto Prices</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: green;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-        }
-        .crypto {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        .crypto span {
-            font-weight: bold;
-        }
-    </style>
+    <title>Conversor de Divisas</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Cripto Pesos</h1>
-        <div class="crypto">Bitcoin: <span id="bitcoin-price">Loading...</span></div>
-        <div class="crypto">Ethereum: <span id="ethereum-price">Loading...</span></div>
-        <div class="crypto">Litecoin: <span id="liteoin-price">Loading...</span></div>
-    </div>
-    
+    <h1>Conversor de Divisas</h1>
+    <h2>Tasas de Conversión desde USD</h2>
+    <div id="rates"></div>
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
