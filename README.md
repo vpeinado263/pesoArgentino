@@ -17,8 +17,4 @@ Este proyecto presenta información sobre el peso argentino (ARS) y su valor en 
 - **JavaScript**: Para consumir la API y manejar los datos.
 - **API de ExchangeRate-API**: Para obtener las tasas de cambio de divisas.
 
-## Instalación
-
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+  Puedes ver el proyecto en vivo aquí: [JS](https://peso-argentino.vercel.app)
