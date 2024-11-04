@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(244, 244, 7);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+#rates {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Múltiples columnas */
+    gap: 10px; /* Espacio entre los elementos */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#rates p {
+    font-size: 16px; /* Ajustar el tamaño de la fuente */
+    color: #333;
+    border: 1px solid rgb(232, 183, 74); /* Agregar borde para mejor visualización */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+#commentary, #conclusion {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    color: #ddd;
+    background: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #000000;
+}

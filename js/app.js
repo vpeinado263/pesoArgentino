@@ -1,10 +1,12 @@
 // Tu clave de API
 const apiKey = '6d16a8b80b36b577a387eba3';
 // URL de la API
-const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
+const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/ARS`;
 
 // Función para obtener las tasas de conversión
 function getExchangeRates() {
+    document.getElementById('rates').innerText = "Cargando tasas de conversión...";
+    
     fetch(url)
         .then(response => {
             if (!response.ok) {
